@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Font1;
+    src: url(MetalMania-Regular.ttf);
+}
+*,html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+}
+.konten-judul {
+    background-color: red;
+}
+.judul {
+    font-family: font1;
+    font-size: 40px;
+}
+.navbar {
+    background-color: #333;
+    height: 100px;
+}
+.menu1 {
+    justify-content: center;
+    display: flex;
+
+}
+.Menu {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.Menu:hover {
+    background-color: red;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+}
+.konten-gambar {
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+.gambar {
+    width: 60%;
+    height: 60%;
+}
+.text-isi {
+    background-color: crimson;
+    justify-content: center;
+    display: flex;
+}
+.Contact {
+    justify-content: center;
+    display: flex;
+}
